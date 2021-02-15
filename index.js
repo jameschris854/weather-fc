@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const date = require("dateformat");
 const errorHandler = require("errorhandler");
 const app = express();
-require("dotenv").config({ path: "./.gitignore/.env" });
+require("dotenv").config({ path: "./config.env" });
 
 let now = new Date();
 let weekDay = date(now, "dddd");
@@ -83,7 +83,6 @@ function handleError(err, req, res, next) {
   if (err) {
     res.render("error");
   }
-
   next(err);
 }
 app.use(handleError);

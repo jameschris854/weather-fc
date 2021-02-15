@@ -1,7 +1,7 @@
 const textField = document.querySelector(".text-field");
-let mode = "white";
 const theme = document.querySelector(".theme");
 const toggle = document.querySelector(".theme>i");
+let mode = "white";
 
 console.log(textField);
 
@@ -30,10 +30,10 @@ theme.addEventListener("click", () => {
 
     document.querySelector("body").style.background = "black";
     document.querySelector("body").style.color = "white";
-    document.querySelector(".logo-bg").style.background = "rgb(27 27 27)";
+    document.querySelector(".logo-bg").style.background = "black";
 
     document.querySelector("footer>div").style.color = "white";
-    document.querySelector("footer>div").style.background = "rgb(27 27 27)";
+    document.querySelector("footer>div").style.background = "black";
     document.querySelector(".temp").style.color = "white";
     document.querySelector(".city-field").style.color = "white";
     mode = "black";
@@ -53,4 +53,7 @@ theme.addEventListener("click", () => {
     document.querySelector(".city-field").style.color = "";
     mode = "white";
   }
+});
+textField.addEventListener("click", () => {
+  textField.textContent = "";
 });

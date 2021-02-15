@@ -118,7 +118,7 @@ span {
 footer {
   background-color: rgb(235, 235, 235);
   width: 100%;
-  border-top: solid 1px rgb(39, 39, 39);
+  border-top: solid 1px rgb(155, 155, 155);
   color: rgb(36, 0, 0);
 }
 .vh {
@@ -130,7 +130,7 @@ footer > div {
 
 .theme {
   font-size: 150%;
-  color: black;
+  color: rgb(104, 104, 104);
 }
 .fa-toggle-on {
   color: white;
