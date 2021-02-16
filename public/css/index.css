@@ -143,7 +143,7 @@ footer > div {
 @media only screen and (max-width: 600px) {
   .emoji-d,
   .emoji-n {
-    font-size: 500%;
+    font-size: 1000%;
   }
   .city-field {
     font-size: 120%;
