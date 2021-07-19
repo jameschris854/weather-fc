@@ -13,4 +13,4 @@ step 2 : add these two lines in config.env file
 	
 	https://webcache.googleusercontent.com/searchq=cache:Dp_oqFV7IE8J:https://www.weatherapi.com/+&cd=11&hl=en&ct=clnk&gl=in
 	
-step 3 : nodemon index.js or npm run index.js  // run this command on the projects root folder 
+step 3 : nodemon index.js or npm start  // run this command on the projects root folder 
